@@ -2,7 +2,6 @@
   "name": "@pixelherz/styled-jsx-utils",
   "version": "1.0.0",
   "description": "Some utils we frequently use for projects built with styled-jsx (https://github.com/zeit/styled-jsx).",
-  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
