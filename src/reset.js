@@ -9,4 +9,6 @@ const unButton = () => `
   background-color: transparent;
 `
 
-module.exports = unButton
+module.exports = {
+  unButton,
+}

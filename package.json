@@ -2,7 +2,17 @@
   "name": "@pixelherz/styled-jsx-utils",
   "version": "1.0.0",
   "description": "Some utils we frequently use for projects built with styled-jsx (https://github.com/zeit/styled-jsx).",
+  "files": [
+    "dist",
+    "convert.js",
+    "layout.js",
+    "reset.js",
+    "type.js"
+  ],
   "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel --watch src -d dist",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +34,9 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "semi": false
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
