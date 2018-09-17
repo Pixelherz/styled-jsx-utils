@@ -1,6 +1,6 @@
 {
   "name": "@pixelherz/styled-jsx-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some utils we frequently use for projects built with styled-jsx (https://github.com/zeit/styled-jsx).",
   "files": [
     "dist",
